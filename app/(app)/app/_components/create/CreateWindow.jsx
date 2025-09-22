@@ -9,7 +9,7 @@ import { toast } from 'sonner'
 import { addFile } from '@/hooks/firebase_actions/addData'
 import { X } from 'lucide-react'
 
-export default function CreateWindow({close, messageBox}) {
+export default function Create({close, messageBox}) {
     const [files, setFiles] = useState([])
     const [loading, setLoading] = useState(false)
 

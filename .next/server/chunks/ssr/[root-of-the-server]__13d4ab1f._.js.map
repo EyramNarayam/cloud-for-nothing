@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/S%20V%20D%20D%20I%20I%20N/Desktop/cloud-for-nothing/app/%28app%29/app/page.jsx"],"sourcesContent":["import React from 'react'\r\n\r\nexport default function page() {\r\n  return (\r\n    <div>\r\n        <History />\r\n    </div>\r\n  )\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,mZAAC;kBACG,cAAA,mZAAC;;;;;;;;;;AAGT","debugId":null}}]
-}

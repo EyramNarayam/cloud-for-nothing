@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/S%20V%20D%20D%20I%20I%20N/Desktop/cloud-for-nothing/hooks/theme-provider.jsx"],"sourcesContent":["\"use client\"\r\n\r\nimport * as React from \"react\"\r\nimport { ThemeProvider as NextThemesProvider } from \"next-themes\"\r\n\r\nexport function ThemeProvider({\r\n  children,\r\n  ...props\r\n}) {\r\n  return <NextThemesProvider {...props}>{children}</NextThemesProvider>\r\n}"],"names":[],"mappings":";;;;;AAEA;AACA;AAHA;;;;AAKO,SAAS,cAAc,KAG7B;QAH6B,EAC5B,QAAQ,EACR,GAAG,OACJ,GAH6B;IAI5B,qBAAO,kWAAC,mTAAkB;QAAE,GAAG,KAAK;kBAAG;;;;;;AACzC;KALgB","debugId":null}}]
-}

@@ -10,6 +10,7 @@ import { githubAuth, googleAuth } from "@/hooks/auth/sign-in"
 export function SignIn({className, ...props}) {
     const navigate = useRouter()
     const params = useSearchParams()
+    const ref = params.get('ref')
 
     const google_auth = async () => {
       try {
@@ -28,7 +29,6 @@ export function SignIn({className, ...props}) {
       }
     }
 
-    const ref = params.get('ref') || '/'
   return (
     <div className={cn("flex flex-col gap-6", className)} {...props}>
         <button onClick={()=>navigate.back()} className="flex items-center gap-2 hover:bg-muted w-fit p-2 rounded-full transition"><ChevronLeft /> Back</button>

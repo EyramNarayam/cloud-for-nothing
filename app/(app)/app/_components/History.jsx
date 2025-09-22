@@ -7,7 +7,6 @@ import Message from './Message'
 import ReadData from '@/hooks/firebase_actions/ReadData'
 import useAuthSession from '@/hooks/auth/AuthSession'
 import { Loader } from 'lucide-react'
-import { toast } from 'sonner'
 import { useRouter } from 'next/navigation'
 
 export default function History() {
