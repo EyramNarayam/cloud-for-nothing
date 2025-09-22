@@ -1,5 +1,6 @@
 'use client'
 import SignOutBtn from '@/components/auth/SignOutBtn'
+import { ModeToggle } from '@/components/ModeToggle'
 import { Avatar } from '@/components/ui/avatar'
 import { Button } from '@/components/ui/button'
 import useAuthSession from '@/hooks/auth/AuthSession'
@@ -33,8 +34,9 @@ export default function Header({add}) {
             </Link>
 
             <div className='flex items-center gap-3'>
-                <Button onClick={add} className={'cursor-pointer'}>Drop File <Plus /></Button>
-                <SignOutBtn variant={'outline'}/>
+              <ModeToggle />
+              <Button onClick={add} className={'cursor-pointer'}>Drop File <Plus /></Button>
+              <SignOutBtn variant={'outline'}/>
             </div>
         </div>
     </header>

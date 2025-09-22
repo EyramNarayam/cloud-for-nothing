@@ -45,7 +45,7 @@ export default function History() {
           openAdd && <CreateWindow close={open} messageBox={messageWindow}/>
         }
         {
-          message && <Message message={'Uploaded Successfully 🚀'} window={messageWindow}/>
+          message && <Message message={'Uploaded Successfully 🚀'} windowB={messageWindow}/>
         }
 
 
