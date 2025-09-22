@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[next]/internal/font/google/playwrite_au_nsw_eb0e455a.module.css"],"sourcesContent":["/* fallback */\n@font-face {\n  font-family: 'Playwrite AU NSW';\n  font-style: normal;\n  font-weight: 100 400;\n  font-display: swap;\n  src: url(@vercel/turbopack-next/internal/font/google/font?{%22url%22:%22https://fonts.gstatic.com/s/playwriteaunsw/v11/6qLbKY4NtxD-qVlIPUIPenElWCCEQxYAYEM0.woff2%22,%22preload%22:false,%22has_size_adjust%22:true}) format('woff2');\n}\n@font-face {\n    font-family: 'Playwrite AU NSW Fallback';\n    src: local(\"Arial\");\n    ascent-override: 125.32%;\ndescent-override: 44.23%;\nline-gap-override: 0.00%;\nsize-adjust: 113.95%;\n\n}\n.className {\n    font-family: 'Playwrite AU NSW', 'Playwrite AU NSW Fallback';\n    font-style: normal;\n\n}\n"],"names":[],"mappings":"AACA;;;;;;;;AAOA;;;;;;;;;AASA","ignoreList":[0],"debugId":null}}]
+}

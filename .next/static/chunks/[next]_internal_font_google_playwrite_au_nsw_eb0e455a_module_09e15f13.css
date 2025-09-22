@@ -1,0 +1,24 @@
+/* [next]/internal/font/google/playwrite_au_nsw_eb0e455a.module.css [app-client] (css) */
+@font-face {
+  font-family: Playwrite AU NSW;
+  font-style: normal;
+  font-weight: 100 400;
+  font-display: swap;
+  src: url("../media/51c668f708823d93-s.051d4950.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Playwrite AU NSW Fallback;
+  src: local(Arial);
+  ascent-override: 125.32%;
+  descent-override: 44.23%;
+  line-gap-override: 0.0%;
+  size-adjust: 113.95%;
+}
+
+.playwrite_au_nsw_eb0e455a-module__Kt0jeW__className {
+  font-family: Playwrite AU NSW, Playwrite AU NSW Fallback;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=%5Bnext%5D_internal_font_google_playwrite_au_nsw_eb0e455a_module_09e15f13.css.map*/
