@@ -8,8 +8,10 @@ import ReadData from '@/hooks/firebase_actions/ReadData'
 import useAuthSession from '@/hooks/auth/AuthSession'
 import { Loader } from 'lucide-react'
 import { toast } from 'sonner'
+import { useRouter } from 'next/navigation'
 
 export default function History() {
+  const navigate = useRouter()
   const { loading, authState } = useAuthSession()
   const {data, loadingData, error } = ReadData()
   const [openAdd, setOpenAdd] = useState(false)
@@ -33,7 +35,7 @@ export default function History() {
   }
 
   if(!authState){
-    return window.location.href = '/sign-in'
+    return navigate.push('/sign-in')
   }
 
   return (
