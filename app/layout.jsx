@@ -24,11 +24,11 @@ export const metadata = {
     title: "Cloud Storage for Nothing™",
     description:
       "The most secure cloud storage ever — we delete your files instantly.",
-    url: "https://yourdomain.com",
+    url: "https://cfn-five.vercel.app/",
     siteName: "Cloud Storage for Nothing™",
     images: [
       {
-        url: "https://yourdomain.com/og-image.png",
+        url: "https://cfn-five.vercel.app/og-image.png",
         width: 1200,
         height: 630,
         alt: "Cloud Storage for Nothing™",
@@ -42,13 +42,13 @@ export const metadata = {
     title: "Cloud Storage for Nothing™",
     description:
       "Upload files. We delete them. It's that simple.",
-    images: ["https://yourdomain.com/og-image.png"],
+    images: ["https://cfn-five.vercel.app/og-image.png"],
   },
   robots: {
     index: true,
     follow: true,
   },
-  metadataBase: new URL("https://yourdomain.com"),
+  metadataBase: new URL("https://cfn-five.vercel.app/"),
 }
 
 export default function RootLayout({ children }) {
